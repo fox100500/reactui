@@ -1,0 +1,30 @@
+.b-popup{
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  color: #d8e1e8;    
+
+  width:100pt;
+  background-color:#354755;
+  overflow:hidden;
+  position: absolute;
+  top:0px;
+  z-index: 1000;
+  border-radius: 5pt;
+}
+.b-popup .b-popup-content{
+  background-color:#354755;
+  padding:5pt;
+}
+
+.underline{
+  border-bottom-color:#48aff0;
+  border-bottom-width: 2px;
+  border-bottom-style:ridge;
+  padding-bottom: 5px;
+}
+
+/*box-shadow: 1px 1px 1px #000;*/
+
+.hide {
+  display: none;
+}

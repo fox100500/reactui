@@ -1,0 +1,98 @@
+.tableOrderbook {
+   -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none; 
+}
+
+.orderSelector{
+  min-width: 90pt;
+  background-color: #25313c;
+  text-align:center;
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  color: #d8e1e8;    
+  margin:0;
+  padding:0;
+  height: 20pt;
+}
+
+.orderSelector.stateOn { 
+  border-color: #C0C0C0; 
+  border-bottom: 3px solid #48aff0; 
+  background-color: #354755;
+}
+
+.orderSelector.stateOff { 
+  border: 0px solid darkgrey; 
+  background-color: #25313c;
+}
+
+
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+outline: 0!important;
+outline-color: transparent!important;
+outline-width: 0!important;
+outline-style: none!important;
+box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
+} 
+
+.mycol {
+  width:60pt;
+  background-color: #25313c;
+  text-align:center;
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  color: #d8e1e8;    
+  margin:0;
+  padding:0;
+}
+
+.mycol.fullborder {
+  border: 1px solid darkgrey; 
+}
+
+.mycol.sizeborder {
+  border-left: 1px solid darkgrey;
+  border-right: 1px solid darkgrey;
+}
+
+.mycol.light {
+  background-color: #293742;
+}
+
+.mycol.dark {
+  background-color: #25313c;
+}
+
+.mycol.left {
+  text-align:left;
+}
+
+.mycol.right {
+  text-align:right;
+}
+
+.container {
+  width: 180pt;
+  margin: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 1px dotted #999;
+}
